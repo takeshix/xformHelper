@@ -336,8 +336,10 @@ class XformHelper extends FormHelper {
 			$data = $this->request->data[$model_field[0]];
 
 		}else{
-			if(empty($modelname)) {
+			if(empty($modelname) && empty($this->defaultModel)) {
 				$data = current($this->request->data);
+			}elseif (isset($this->request->data[$this->defaultModel])) {
+				$data = $this->request->data[$this->defaultModel];
 			}else {
 				$data = $this->request->data[$modelname];
 			}
