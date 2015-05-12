@@ -1,5 +1,5 @@
 {
-	"name": "takeshix/x-form-helper",
+	"name": "takeshix/x-form",
 	"description": "extends cakephp Form helper",
 	"type": "cakephp-plugin",
 	"license": "MIT",
