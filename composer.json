@@ -1,5 +1,5 @@
 {
-	"name": "takeshix/x-form",
+	"name": "takeshix/xform",
 	"description": "extends cakephp Form helper",
 	"type": "cakephp-plugin",
 	"license": "MIT",
@@ -10,8 +10,5 @@
 	"require": {
 		"php": ">=5.2.4",
 		"composer/installers": "*"
-	},
-  "extra": {
-    "installer-name": "xForm"
-  }
+	}
 }
