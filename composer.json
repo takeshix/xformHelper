@@ -1,0 +1,14 @@
+{
+	"name": "takeshix/xformhelper",
+	"description": "extends cakephp Form helper",
+	"type": "cakephp-plugin",
+	"license": "MIT",
+	"keywords": [
+		"form",
+		"cakephp"
+	],
+	"require": {
+		"php": ">=5.2.4",
+		"composer/installers": "*"
+	}
+}
